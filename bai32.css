@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-image: url(anh4.jpg);
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header img{
+    width: 1000px;
+}
+.layout{
+    width: 1000px;
+}
+.layout .menu{
+    background-color: black;
+    text-align: center;
+    border: salmon 1px solid;
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    list-style: none;
+    border-right: white 1px solid;
+    margin: 5px 0 5px 0;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: brown;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.menu ul li :hover{
+    background-color: yellowgreen;
+}
+.line{
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 180px;
+    margin-left: 30px;
+}
+.List1{
+    width: 180px;
+    height: auto;
+    border: black 1px solid;
+    box-sizing: border-box;
+}
+.List1 p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-left: orange 10px solid;
+}
+.List1 li{
+    padding-top: 5px;
+}
+.List1 a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    padding-top: 13px;
+}
+.List2{
+    width: 180px;
+    height: auto;
+    border: black 1px solid;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.List2 p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-left: orange 10px solid;
+}
+.List2 li{
+    padding-top: 5px;
+}
+.List2 a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    padding-top: 13px;
+}
+.center{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    ma}
+.pastone{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: azure;
+    
+}
+.pasttwo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.lineone{
+    background-color: brown;
+    padding: 10px;
+}
+.linetwo{
+    background-color: white;
+    color: orange;
+
+}
+.anh{
+    float: left;
+    width: 100px;
+}
+.linethree{
+    float: left;
+}
+.right{
+    margin-left: 80px;
+}
