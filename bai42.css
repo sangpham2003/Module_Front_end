@@ -1,0 +1,108 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 30px;
+}
+.left{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.search{
+    margin-left: 250px;
+}
+.photoone{
+    height: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    position: relative;
+    border-right: white 1px  solid;
+    box-sizing: border-box;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+}
+.menu li :hover{
+    background-color: white;
+    color: black;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    width: 200px;
+    top: 40px;
+}
+.submenu li{
+    display: block;
+    background-color: greenyellow;
+    border-bottom: rgb(133, 177, 133) 1px solid;
+}
+.submenu li >a{
+    padding: 10px 10px;
+}
+.menu li:hover .submenu{
+    display: block;
+    
+}
+.navigation{
+    background-color: greenyellow;
+    margin-top: 30px;
+    width: 200px;
+}
+.navigationbar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.navigationbar li{
+    list-style: none;
+    position: relative;
+    border-bottom: white 1px  solid;
+    box-sizing: border-box;
+}
+.navigationbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+}
+.navigationbar li :hover{
+    background-color: white;
+    color: black;
+}
+.subnavigationbar{
+    position: absolute;
+    display: none;
+    width: 200px;
+    left: 200px;
+    top:0;
+
+
+}
+.subnavigationbar li{
+    display: block;
+    background-color: greenyellow;
+    border-bottom: rgb(133, 177, 133) 1px solid;
+}
+.subnavigationbar li >a{
+    padding: 10px 10px;
+}
+.navigationbar li:hover .subnavigationbar{
+    display: block;
+    
+}
